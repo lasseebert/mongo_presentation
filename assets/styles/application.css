@@ -1,0 +1,6 @@
+.deck-container table {
+	width: 100%;
+}
+	.deck-container table th, .deck-container table td {
+		padding-right: 30px;
+	}
