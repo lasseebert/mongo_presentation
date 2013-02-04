@@ -1,0 +1,19 @@
+Install MongoDB
+	From C:\Users\lde\Documents\Presentations\Mongo\mongodb-win32-x86_64-2.0.6.zip
+	Into c:\mongodb
+	Start server
+		bin\mongod --dbpath ..\db
+	Enter console
+		bin\mongo
+
+	Javascript
+	show dbs
+	show collections
+	db.models.insert({a:1, b:"string"});
+	db.models.insert({a:2, b:"string"});
+	db.models.find();
+	db.models.find({a:1});
+	db.models.find({b:"string"});
+
+C# Demo
+	Show and tell
